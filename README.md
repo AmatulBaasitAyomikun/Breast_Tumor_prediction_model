@@ -2,7 +2,7 @@
 
 A machine learning classification project that predicts whether a breast tumor is **malignant** or **benign** based on measurements extracted from digitized images of fine needle aspirate (FNA) biopsies. The trained model is deployed behind an interactive Streamlit web app for real-time diagnosis support.
 
-🎗️ **[Live Demo](#)** *(add your deployed Streamlit Cloud link here)*
+🎗️ **[https://breast-tumor-pred-app.streamlit.app/](#)** 
 
 ## Problem Statement
 
