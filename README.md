@@ -2,14 +2,13 @@
 
 A machine learning classification project that predicts whether a breast tumor is **malignant** or **benign** based on measurements extracted from digitized images of fine needle aspirate (FNA) biopsies. The trained model is deployed behind an interactive Streamlit web app for real-time diagnosis support.
 
-🎗️ **[https://breast-tumor-pred-app.streamlit.app/](#)** 
-
+🎗️ **[Live Demo](https://breast-tumor-pred-app.streamlit.app/)**
 
 ## Problem Statement
 
 Breast cancer is one of the most common cancers affecting people worldwide, and early, accurate diagnosis is critical to effective treatment and improved survival rates. Traditional diagnosis relies on manual interpretation of biopsy characteristics, which can be time-consuming and subject to variability between practitioners.
 
-This project explores whether a machine learning model can reliably classify a tumor as malignant or benign using quantitative cell nucleus features, offering a fast, consistent, data-driven second opinion that could support clinical decision-making.
+This project explores whether a machine learning model can reliably classify a tumor as malignant or benign using quantitative cell nucleus features — offering a fast, consistent, data-driven second opinion that could support clinical decision-making.
 
 ## Solution
 
@@ -58,7 +57,7 @@ Each of these is captured as a `_mean`, `_se` (standard error), and `_worst` val
 | Training Accuracy | 94.7% |
 | Testing Accuracy | 95.6% |
 
-The model generalizes well, with test accuracy slightly exceeding training accuracy, indicating no overfitting on this dataset.
+The model generalizes well, with test accuracy slightly exceeding training accuracy — indicating no overfitting on this dataset.
 
 ## Web App Features
 
@@ -114,7 +113,6 @@ This app is deployment-ready as-is:
 2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
 3. Click **New app**, select this repository and branch, and set the main file path to `breast_tumor_web_app.py`.
 4. Click **Deploy**. Streamlit Cloud will install everything from `requirements.txt` automatically.
-5. Once live, add the deployed URL to the top of this README.
 
 No code changes are required for deployment — the model is already loaded via a relative path (`trained_model.sav`), so it works the same locally and in the cloud.
 
